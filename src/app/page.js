@@ -16,14 +16,14 @@ let data = await parsedData.json();
 setQuotes(data);
 let random = Math.floor(Math.random() * data.length);
 const quote = data[random]; 
-console.log(quote)
+// console.log(quote)
 setShow(quote)
 };
  
 const randomQuote = ()=>{
   let random = Math.floor(Math.random() * quotes.length);
 const quote = quotes[random]; 
-console.log(quote)
+// console.log(quote)
 setShow(quote)
 }
 useEffect(() => {
